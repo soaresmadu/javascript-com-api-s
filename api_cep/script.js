@@ -107,6 +107,7 @@ submitBtn.addEventListener('click', (event) =>{
         alert("FORMULÁRIO ENVIADO COM SUCESSO");
         localStorage.clear();
         form.reset();
+        location.reload();
     }
 })
 
